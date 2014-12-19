@@ -42,7 +42,9 @@ body {
 }
 
 a {
-    color: #ef4035;
+	/*color: #ef4035;*/
+	/*color: #158dc8;*/
+    color: #fb3348;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -104,7 +106,7 @@ hr.right {
 }
 
 hr.colored {
-    border-color: #ef4035;
+	border-color: #fb3348;
 }
 
 @media(min-width:768px) {
@@ -123,7 +125,7 @@ hr.colored {
 }
 
 .text-primary {
-    color: #ef4035;
+    color: #fb3348;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -133,12 +135,12 @@ hr.colored {
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
     border-radius: 0;
-    color: #ef4035;
+    color: #fb3348;
     background-color: #fff;
 }
 
 .navbar-default {
-    background-color: #ef4035;
+    background-color: #fb3348;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -480,7 +482,7 @@ aside.cta-quote span.quote {
     font-size: 30px!important;
     line-height: 50px;
     color: #fff!important;
-    background-color: #ef4035!important;
+    background-color: #fb3348!important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -574,7 +576,7 @@ aside.cta-quote span.quote {
     font-size: 30px!important;
     line-height: 50px;
     color: #fff!important;
-    background-color: #ef4035!important;
+    background-color: #fb3348!important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -711,7 +713,7 @@ aside.cta-quote span.quote {
     font-size: 30px!important;
     line-height: 70px;
     color: #fff!important;
-    background-color: #ef4035!important;
+    background-color: #fb3348!important;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
@@ -873,9 +875,9 @@ aside.cta-quote span.quote {
 }
 
 .portfolio-filter #filters li .filter.active {
-    border-color: #ef4035;
+    border-color: #fb3348;
     color: #fff;
-    background-color: #ef4035;
+    background-color: #fb3348;
 }
 
 #portfoliolist .portfolio {
@@ -911,7 +913,7 @@ aside.cta-quote span.quote {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ef4035;
+    background: #fb3348;
 }
 
 #portfoliolist .portfolio .portfolio-wrapper .caption .caption-text {
@@ -1067,7 +1069,7 @@ aside.cta-quote span.quote {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #ef4035;
+    color: #fb3348;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -1126,7 +1128,7 @@ footer.footer .copyright p.small {
 .btn-outline-light:hover,
 .btn-outline-light:focus {
     outline: 0;
-    color: #ef4035;
+    color: #fb3348;
     background: #fff;
 }
 
@@ -1141,10 +1143,10 @@ footer.footer .copyright p.small {
 
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
-    border-color: #ef4035;
+    border-color: #fb3348;
     outline: 0;
     color: #fff;
-    background: #ef4035;
+    background: #fb3348;
 }
 
 .btn {
@@ -1175,7 +1177,7 @@ footer.footer .copyright p.small {
 
 .btn-full-width:hover {
     color: #fff;
-    background-color: #ef4035;
+    background-color: #fb3348;
 }
 
 .btn-full-width:focus {
