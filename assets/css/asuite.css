@@ -211,9 +211,9 @@ hr.colored {
 
     .navbar-fixed-top {
         padding: 15px 0;
-        -webkit-transition: padding .5s;
-        -moz-transition: padding .5s;
-        transition: padding .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        transition: .5s;
     }
 
     .navbar-fixed-top .navbar-brand:hover {
@@ -224,7 +224,17 @@ hr.colored {
     .navbar-inverse.navbar-expanded {
         border: 0;
         background: 0 0;
+        -webkit-transition:.5s;
+        -moz-transition:.5s;
+        transition: .5s;
     }
+}
+
+.navbar-expanded img{
+	display: none;
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	transition: .5s;
 }
 
 .navbar a:focus {
@@ -269,6 +279,12 @@ header .brand-name-subtext {
     font-size: 20px;
     font-weight: 300;
     line-height: 20px;
+}
+header .brand-name-subsubtext {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    font-style: italic;
 }
 
 header img {
@@ -334,6 +350,11 @@ header .scroll-down .btn:hover {
         font-size: 30px;
         line-height: 30px;
     }
+    header .brand-name-subsubtext {
+        font-size: 24px;
+        line-height: 30px;
+        font-style: italic;
+    }
 
     header img {
         max-height: 300px;
@@ -388,6 +409,13 @@ aside.cta-quote span.quote {
     font-weight: 300;
     line-height: 32px;
 }
+aside.cta-subquote, span.subquote {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 26px;
+    font-style: italic;
+}
 
 @media(min-width:768px) {
     aside.cta-quote {
@@ -399,6 +427,11 @@ aside.cta-quote span.quote {
         font-size: 36px;
         line-height: 38px;
     }
+    aside.cta-subquote, span.subquote{
+		font-size: 30px;
+		line-height: 32px;
+		font-style: italic;
+    }
 }
 
 @media(min-width:992px) {
@@ -409,6 +442,11 @@ aside.cta-quote span.quote {
     aside.cta-quote span.quote {
         font-size: 40px;
         line-height: 42px;
+    }
+    aside.cta-subquote, span.subquote{
+		font-size: 32px;
+		line-height: 38px;
+		font-style: italic;
     }
 }
 
