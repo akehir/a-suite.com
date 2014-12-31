@@ -206,7 +206,7 @@ hr.colored {
     }
 
     .navbar-fixed-top.navbar-expanded {
-        padding: 30px 0;
+        /*padding: 30px 0;*/
     }
 
     .navbar-fixed-top {
@@ -222,8 +222,9 @@ hr.colored {
 
     .navbar-default.navbar-expanded,
     .navbar-inverse.navbar-expanded {
-        border: 0;
-        background: 0 0;
+        /*border: 0;*/
+        /*background: 0 0; */
+		background-color: #222;
         -webkit-transition:.5s;
         -moz-transition:.5s;
         transition: .5s;
@@ -1177,14 +1178,15 @@ footer.footer .copyright p.small {
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
+	box-shadow: 3px 3px 5px #888888;
 }
 
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
-    border-color: #fb3348;
+    /*border-color: #fb3348;*/
     outline: 0;
-    color: #fff;
-    background: #fb3348;
+    color: #fb3348;
+    /*background: #fb3348;*/
 }
 
 .btn {
@@ -1320,4 +1322,9 @@ body.vintage .testimonials .testimonials-carousel .item .testimonial-info .testi
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
     line-height: 55px;
+}
+
+.chat-hidden{
+	visibility: hidden;
+	display: none;
 }
