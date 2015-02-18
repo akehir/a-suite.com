@@ -1,7 +1,8 @@
 /*!
- * Vitality v1.3.2 (http://themes.startbootstrap.com/vitality-v1.3.2)
- * Copyright 2014 Start Bootstrap Themes.
- * Licensed at WrapBootstrap, visit WrapBootstrap to purchase a usage license for this theme (https://wrapbootstrap.com/)
+ * 
+ * A-Suite Theme
+ * Copyright 2015 a-suite.com.
+ * 
  */
 
 html,
@@ -287,6 +288,16 @@ header .brand-name-subsubtext {
     line-height: 20px;
     font-style: italic;
 }
+header .brand-name-k {
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+}
+header .brand-name-t {
+    font-size: 8px;
+    font-weight: 300;
+    font-style: italic;
+}
 
 header img {
     max-height: 150px;
@@ -354,6 +365,14 @@ header .scroll-down .btn:hover {
     header .brand-name-subsubtext {
         font-size: 24px;
         line-height: 30px;
+        font-style: italic;
+    }
+    header .brand-name-k {
+        font-size: 24px;
+        font-style: italic;
+    }
+    header .brand-name-t {
+        font-size: 12px;
         font-style: italic;
     }
 
