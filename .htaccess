@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "A-Suite"
-AuthUserFile "/home/asuiteco/.htpasswds/public_html/passwd"
-require valid-user
